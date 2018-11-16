@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(Server )
-include_directories(/home/sebas97012/Documents/Development/libs/ChSocket)
-link_directories(/home/sebas97012/Documents/Development/libs/ChSocket)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/ChSocket)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/ChSocket)
 
 set(CMAKE_C_STANDARD 99)
 

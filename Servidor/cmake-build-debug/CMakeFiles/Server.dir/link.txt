@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Server.dir/main.c.o  -o Server  -L/home/sebas97012/Documents/Development/libs/ChSocket -Wl,-rpath,/home/sebas97012/Documents/Development/libs/ChSocket -Wl,-Bstatic -lChSocket -Wl,-Bdynamic 

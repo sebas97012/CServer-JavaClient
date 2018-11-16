@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebas97012/Desktop/Servidor/main.c
+sys/time.h
+-
+sys/types.h
+-
+unistd.h
+-
+Socket_Servidor.h
+-
+Socket.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+netinet/in.h
+-
+
+/home/sebas97012/Documents/Development/libs/ChSocket/Socket.h
+sys/socket.h
+-
+
+/home/sebas97012/Documents/Development/libs/ChSocket/Socket_Servidor.h
+

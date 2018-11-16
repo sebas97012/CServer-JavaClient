@@ -1,0 +1,5 @@
+-Compilar ChSocket(Biblioteca de C incluida en el proyecto) en la terminal ir a /ChSocket y correr "make"
+-Luego en el makefile del proyecto del server poner el path de donde está la bilbioteca compilada
+-Agregar esto al final del archivo services en /etc:  "cpp_java 15557/tcp" sin las comillas, esto en realidad es el nombre con el que el programa en C va a buscar en puerto, se puede poner el que se quiera pero hay que cambiarlo en el main del server(macro SOCKET_NAME). cpp_java sería el nombre, 15557 el puerto y tcp el protocolo, este último no se puede cambiar. Nada más tener cuidado que el puerto no esté ocupado (buscarlo en el archivo services)
+-Compilar el server y la parte de Java
+-Por último correr primero el servidor y luego el cliente.
